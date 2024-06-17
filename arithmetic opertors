@@ -1,0 +1,14 @@
+c program to demonstrate working of arithmetic opertors
+Source code:
+#include <stdio.h>
+int main() 
+{
+    int a,b;
+    scanf("%d\n%d",&a,&b);
+    printf("a+b=%d\n",a+b);
+    printf("a-b=%d\n",a-b);
+    printf("a*b=%d\n",a*b);
+    printf("a/b=%d\n",a/b);
+    printf("a%b=%d\n",a%b);
+return 0;
+}
