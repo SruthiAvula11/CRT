@@ -1,0 +1,30 @@
+Cprogram to check whether a number is positive,negativeorzero
+Source code:
+#include <stdio.h>
+int main() 
+{
+  int a;
+  scanf("%d",&a);
+  if(a>0)
+  {
+      printf("%d is positive",a);
+  }
+  if(a<0)
+  {
+      printf("%d is negative",a);
+  }
+  if(a==0)
+  {
+      printf("%d is zero",a);
+  }
+return 0;
+}
+Output(1):
+0
+0 is zero
+Output(2):
+11
+11 is positive
+Output(3):
+-1
+-1 is negative
