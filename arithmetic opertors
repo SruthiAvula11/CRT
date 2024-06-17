@@ -12,3 +12,12 @@ int main()
     printf("a%b=%d\n",a%b);
 return 0;
 }
+Output:
+34
+54
+a+b=88
+a-b=-20
+a*b=1836
+a/b=0
+a%b=34
+
