@@ -1,0 +1,36 @@
+C program to find maximum between three numbers
+Source code:
+#include <stdio.h>
+int main() 
+{
+  int a,b,c;
+  scanf("%d\n%d\n%d",&a,&b,&c);
+  if(a>b && a>c)
+  {
+      printf("%d is maximum",a);
+  }
+  if(b>a && b>c)
+  {
+      printf("%d is maximum",b);
+  }
+  if(c>a && c>b)
+  {
+      printf("%d is maximum",c);
+  }
+return 0;
+}
+Output(1):
+20
+21
+22
+22 is maximum
+Output(2):
+34
+20
+21
+34 is maximum
+Output(3):
+11
+21
+10
+21 is maximum
