@@ -1,0 +1,16 @@
+C program to show working of all logical opertors
+Source code:
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d\n%d",&a,&b);
+    printf("a&&b=%d\n",a&&b);
+    printf("a||b=%d\n",a||b);
+    return 0;
+}
+Output:
+12
+0
+a&&b=0
+a||b=1
