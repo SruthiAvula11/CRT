@@ -1,0 +1,27 @@
+C program to find maximum between two numbers
+Source code:
+#include <stdio.h>
+int main() 
+{
+  int a,b;
+  scanf("%d\n%d",&a,&b);
+  if(a>b)
+  {
+      printf("%d is maximum",a);
+  }
+  else
+  {
+      printf("%d is maximum",b);
+  }
+
+
+    return 0;
+}
+Output(1):
+21
+34
+34 is maximum
+Output(2):
+21
+20
+21 is maximum
